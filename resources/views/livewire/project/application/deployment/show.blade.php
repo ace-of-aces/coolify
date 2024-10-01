@@ -59,7 +59,7 @@
                 class="flex flex-col-reverse w-full p-2 px-4 mt-4 overflow-y-auto bg-white dark:text-white dark:bg-coolgray-100 scrollbar dark:border-coolgray-300"
                 :class="fullscreen ? '' : 'min-h-14 max-h-[40rem] border border-dotted rounded'">
                 <div :class="fullscreen ? 'fixed' : 'absolute'" class="top-4 right-6">
-                    <div class="flex justify-end gap-4 fixed -translate-x-full">
+                    <div class="flex justify-end gap-4">
                         <button title="Toggle timestamps" x-on:click="showTimestamps = !showTimestamps">
                             <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
                                 stroke="currentColor" stroke-width="2">
